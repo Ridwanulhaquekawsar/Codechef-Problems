@@ -26,7 +26,7 @@ int main(){
 
 
 
-2nd Approach: 👇
+• 2nd Approach: 👇
 
 #include<bits/stdc++.h>
 using namespace std;
