@@ -80,12 +80,14 @@ void solve(){
         in v[i]; 
     }
     
-    mxAns = v[n - 1];
     mnAns = v[0];
     
     rep1(i, 1, n - 1){
         mnAns = mnAns + (2 * v[i]); 
     }
+    
+    mxAns = v[n - 1];
+    
     rrep1(i, n - 2, 0){
         mxAns = (2 * mxAns) + v[i];
     }
