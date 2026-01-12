@@ -369,12 +369,8 @@ void solve(){
     
     if(all0 % n || all1 % n) out(-1);
     else{
-        if(all0 == n){
-            out(n - max({cnt[0].f, cnt[1].f, cnt[2].f}) );
-        }
-        else if(all1 == n){
-            out(n - max({cnt[0].sc, cnt[1].sc, cnt[2].sc}) );
-        }
+        if(all0 == n) out(n - max({cnt[0].f, cnt[1].f, cnt[2].f}) );
+        else if(all1 == n) out(n - max({cnt[0].sc, cnt[1].sc, cnt[2].sc}) );
         else out(0);
     }
 }
