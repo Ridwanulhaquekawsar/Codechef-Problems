@@ -74,26 +74,31 @@ using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node
 ll T;
 ll n;
 vll fr;
-ll mx;
-ll tmp;
-ll tot, ans;
+ll ans;
 ll c;
 S s;
+vll prf;
+ll t;
 
 void solve(){
     in n >> c >> s;
     as(fr, 5, 0);
+    rs(prf, 5);
     
     rep(i, n) fr[s[i]-'A']++;
-    mx = max({fr[0], fr[1], fr[2], fr[3], fr[4]});
+    sort(rall(fr) );
     
-    tmp = ( (n-mx) * (n-mx+1) )/2;
-    tot = (n * (n+1))/2;
+    prf[0] = fr[0];
+    rep1(i, 1, sz(fr) ) prf[i] = prf[i-1] + fr[i];
     
-    ans = 0;
-    ans += tmp;
+    ans = (n * (n+1) )/2;
     
-    ans += min(tot-tmp, c * mx);
+    rep(i, 5){
+        t = n - prf[i];
+        
+        t = (t * (t + 1) )/2;
+        ans = min(ans, t + (i + 1) * c);
+    }
     
     out(ans);
 }
