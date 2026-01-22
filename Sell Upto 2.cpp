@@ -102,42 +102,41 @@ ll ans;
 ll j;
 map<pll, ll>mp;
 ll sell_cnt;
-vpll c;
+ll x;
 
 void solve(){
     in n;
     rs(a, n);
     as(b, n, 1);
-    rs(c, n);
     mp.clr;
     
     rep(i, n){
-        in a[i];
-        c[i] = {a[i], i};
+        in x;  // I'th days watches price ! 
+        a[i] = {x, i};  // keeping the i'th days watches possible price and its i'th days position in the array a ! 
         
-        mp[{a[i], i}] = i;
+        mp[{x, i}] = i;  // Keeping track the i'th days of high price ! 
     } 
     
-    sort(rall(c) );   
+    sort(rall(a) );  // Sort the a array by price ! 
     
     ans = 0;
-    j = 0;
+    j = 0;  // Run the a array beginning to end ! 
     
     wh(j < n){
-        sell_cnt = 0;
+        sell_cnt = 0;  // For every days we can allocate at most 2 watch ! 
         
-        rrep1(i, mp[c[j]], 0){
-            if(sell_cnt == 2) break;
+        rrep1(i, mp[a[j]], 0){
+            if(sell_cnt == 2) break;  // When we encounter 2 that means we already collected two watches to selling this on the next high priced days ! 
             
-            if(b[i] == 1 && sell_cnt < 2){
-                ans += c[j].f;
-                b[i] = 0;
+            if(b[i] == 1 && sell_cnt < 2){  // We are talking here the i'th watch for selling on the next high priced-Days ! 
+                ans += a[j].f;  // Adding this high price to the ans from the descending array a ! 
+                b[i] = 0;  // Making this idx'th array b by 0 after collecting this watches for selling next upcoming maximum priced days !  
                 
-                sell_cnt++;
+                sell_cnt++;  // After Collecting this watch increment the sell_cnt variable by one ! 
             }
         }
         
-        j++;
+        j++;  // This j variable means we are iterating the descending array a of high priced Container ! 
     }
     
     out(ans);
