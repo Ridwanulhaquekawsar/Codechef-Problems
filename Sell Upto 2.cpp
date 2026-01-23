@@ -100,6 +100,83 @@ using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node
 
 ll T;
 ll n;
+vll b;
+vpll a;
+ll ans;
+ll j;
+map<pll, ll>mp;
+ll sell_cnt;
+ll x;
+
+void solve(){
+    in n;
+    rs(a, n);
+    as(b, n, 1);
+    mp.clr;
+    
+    rep(i, n){
+        in x;  // I'th days watches price ! 
+        a[i] = {x, i};  // keeping the i'th days watches possible price and its i'th days position in the array a ! 
+        
+        mp[{x, i}] = i;  // Keeping track the i'th days of high price ! 
+    } 
+    
+    sort(rall(a) );  // Sort the a array by price ! 
+    
+    ans = 0;
+    j = 0;  // Run the a array beginning to end ! 
+    
+    wh(j < n){
+        sell_cnt = 0;  // For every days we can allocate at most 2 watch ! 
+        
+        rrep1(i, mp[a[j]], 0){
+            if(sell_cnt == 2) break;  // When we encounter 2 that means we already collected two watches to selling this on the next high priced days ! 
+            
+            if(b[i] == 1 && sell_cnt < 2){  // We are talking here the i'th watch for selling on the next high priced-Days ! 
+                ans += a[j].f;  // Adding this high price to the ans from the descending array a ! 
+                b[i] = 0;  // Making this idx'th array b by 0 after collecting this watches for selling next upcoming maximum priced days !  
+                
+                sell_cnt++;  // After Collecting this watch increment the sell_cnt variable by one ! 
+            }
+        }
+        
+        j++;  // This j variable means we are iterating the descending array a of high priced Container ! 
+    }
+    
+    out(ans);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+    }
+class cmp{
+    public:
+    bool operator()(){
+        
+    }
+};
+
+/*
+ll lcm(ll a, ll b) {
+    return (a / __gcd(a, b)) * b;
+}
+*/
+
+/*
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+
+template<typename T>
+using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+*/
+
+ll T;
+ll n;
 vll a, b;
 ll ans;
 ll j;
