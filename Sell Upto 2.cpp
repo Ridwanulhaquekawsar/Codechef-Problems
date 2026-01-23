@@ -1,3 +1,6 @@
+• Problem Link : 👇
+https://www.codechef.com/problems/SELL2
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
