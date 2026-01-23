@@ -1,3 +1,29 @@
+/*
+☑ Third problem of the day done ! ╰┈➤ (January 2019 Long Challenge problem HP18)
+
+• Problem Name (Lucky Number Game) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/HP18
+
+Observation : 🕵🏻‍♂️
+
+- If bob(He will take the first move) has more multiples in that array than the second perticipant alice then Bob will win otherwise Alice will win. 
+
+Solution Approach : 🎯
+
+- Initially, we will count multiples separately for individual participants. 
+
+- And then check through ternary operator whoever has more multiples will win ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses : Adhoc !
+*/
+
+    
+code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
