@@ -1,4 +1,4 @@
-// • Problem Link : 👇
+• Problem Link : 👇
 https://www.codechef.com/problems/SELL2
 
 #include<bits/stdc++.h>
