@@ -1,3 +1,35 @@
+/* Saturday, 24 January , 2026 !
+
+☑ Second problem of the day done ! ╰┈➤ (Starters 204, Div 4)
+
+• Problem No. B (Episodes) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/EPISODES?tab=statement
+
+Observation :
+
+- How many times we can divide by 60 overall minutes, this wil be the hour(H) !
+
+*  We are clearly sees that if total watch time is not divided by 60 then remainder will indicate the rest of minutes ! (M)
+
+Solution Approach : 🎯
+
+- Calculate the watch time over the Series Episodes ! 
+-  Then Divide it by 60 - It will Indicate Hour ! 
+- And then Calculate Remainder - It will indicate rest of the minutes ! 
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses : Division and remainder calculation just ! 
+*/
+
+
+
+
+
+code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
