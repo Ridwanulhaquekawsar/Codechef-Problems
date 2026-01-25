@@ -1,3 +1,30 @@
+/*
+Sunday , 25 January , 2026 !
+
+☑ First problem of the day done ! ╰┈➤ (Starters 51)
+
+• Problem No. E (Different Medians) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/DIFFMED?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+- If we consider the largest value first from the end and then smallest value from the begining of this permutation, then it's all prefix median will produce unique ! 
+
+Solution Approach : 🎯
+- Firstly, we are talking two pointers b & s, b = n  -> which indicates the largest element from the End of this permutation and  s = 1  -> which is the smallest element from the end ! 
+
+-  We maintained two flag variable to print the permutation alternately,  First, We'll print the largest element  then smalles one untill permutation constructing ends ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Adhoc !
+*/
+
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
