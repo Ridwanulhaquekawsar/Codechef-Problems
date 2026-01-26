@@ -1,3 +1,30 @@
+/*
+Monday , 26 January , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 222, Div 4)
+
+• Problem No. B (Candy Types) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/CANDYTYPE?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+As problem constraints are small then we use vector as a frequency and then we can run a loop for calculating max frequency of indexed value, If they become the same then automatically the next frequency won't enter the if ladder !
+
+Solution Approach : 🎯
+
+At first, We will maintain a vector or map to calculate the frequency of these array's elements .
+
+And then either we'll use priority_que or simple vector loop to find who has max frequency in this array !
+
+Time Complexity : O(nlogn(For priority queue and map uses) / n (For simple Loop) ) 🧠🧮𒅒🤔 📝 !
+
+Implementation Uses : Map & priority_que / Simple Vector loop </> 👨🏻‍💻 !
+*/
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
