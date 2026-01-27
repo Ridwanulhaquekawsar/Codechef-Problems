@@ -1,3 +1,30 @@
+/*
+
+Tuesday , 27 January , 2026 !
+
+☑ Second problem of the day done ! ╰┈➤ (Codechef Starters 119, Div 4)
+
+• Problem No. D (Another Good String) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ADVITIYA4?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  Here We we have calculate the max subarray or max consecutive length of similar characters.  And also After every query we will check that added character is same or not than the previous character ! 
+
+Solution Approach : 🎯
+
+-  So, If we want to calculate this then either we can use map to store every charters corresponding max length which is unnecessary,  To make easier we can use simple loop by tracking its consecutive similar character length ! 
+
+Time Complexity :  O(nlogn / n) 🧠🧮𒅒🤔 📝 ! 
+
+Implementation Uses :  Map / Loop </> 👨🏻‍💻  !
+
+*/
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
