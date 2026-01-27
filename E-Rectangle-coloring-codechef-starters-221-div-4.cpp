@@ -1,4 +1,5 @@
 /*
+
 Tuesday , 27 January , 2026 !
 
 ☑ 1st problem of the day done ! ╰┈➤ (Codechef starters 221, Div 4)
@@ -27,10 +28,8 @@ Time Complexity :  O(n) 🧠🧮𒅒🤔 📝 !
 
 Implementation Uses : Adhoc </> 👨🏻‍💻  !
 
-
-Code Link : ╰┈જ⁀➴
-https://github.com/Ridwanulhaquekawsar/Codechef-Problems/blob/main/E-Rectangle-coloring-codechef-starters-221-div-4.cpp
 */
+
 
 Code : 👇
 
