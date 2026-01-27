@@ -1,3 +1,36 @@
+/*
+
+Tuesday , 27 January , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 120, Div 4)
+
+• Problem No. D (Sub or swp) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ASM120?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  Here we are just subtracting over and and over by small val to the Big value untill small value become zero !  
+
+-  We know that subtracting means dividing something at once quickly in mathematically very shortly just in one line operation, So, as the last large value divides other value completely and has no remainder so we can stop there ! 
+
+-  Here, we noticed one thing that it is quite similar to the Uclidean GCD Concept , so we cal also use __gcd(x, y); function here ! 
+
+Solution Approach : 🎯
+
+-  Either we can run a loop by operating modulo operation over and over untill we reached a certain point where a one variable becomes zero  or,
+
+-  Simpley, we can use Uclidean GCD C++ Builtin function to calculate the final non-zero largest Divisor Y's Value  at the end of the operation ! 
+
+Time Complexity :  O(T. log(min(x, y)) 🧠🧮𒅒🤔 📝 ! 
+
+Implementation Uses :  </> 👨🏻‍💻  !
+
+*/
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
@@ -108,6 +141,25 @@ void solve(){
     }
     
     out(y);
+}
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
+
+
+Approach No. 2 : 👇
+
+ll T;
+ll x, y;
+ll tmp;
+
+void solve(){
+    in x >> y;
+    out(__gcd(x, y) );
 }
 int main(){
     FastIO(); 
