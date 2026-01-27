@@ -1,3 +1,39 @@
+/*
+Tuesday , 27 January , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef starters 221, Div 4)
+
+• Problem No. E (Rectangle Coloring) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/LMP5?tab=statement
+
+Observation : 🕵🏻‍♂️
+-  For Case = 6 : 
+     • If none of the color can fully cover at least one side then we can't reduce it's cost less than 6 ! 
+     
+-  For Case = 5 : 
+     • If any of the color can cover completely at least one side or more then we can reduce its cost to 5 ! 
+
+ -  For Case = 4 : 
+     • If any of the color can cover simultaneously 2 sides and also among rest of the if a single color can cover completely rest of one side then we can reduce its cost to 4 ! 
+
+Solution Approach : 🎯
+-  We'll run a loop from 1 to 15 by bit masking combination to choose which side will contribute of any of the operation. 
+
+-  And After that we will add the combination value to the sum to compare all case condition like for case 4, 5 and 6 ! 
+
+Time Complexity :  O(n) 🧠🧮𒅒🤔 📝 ! 
+
+Implementation Uses : Adhoc </> 👨🏻‍💻  !
+
+
+Code Link : ╰┈જ⁀➴
+https://github.com/Ridwanulhaquekawsar/Codechef-Problems/blob/main/E-Rectangle-coloring-codechef-starters-221-div-4.cpp
+*/
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
