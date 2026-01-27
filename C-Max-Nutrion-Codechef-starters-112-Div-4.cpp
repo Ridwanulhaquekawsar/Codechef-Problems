@@ -125,3 +125,41 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+Just Another Approach : 👇
+
+ll T;
+ll n;
+vll a, b;
+vll fri;
+ll ans;
+
+void solve(){
+    in n;
+    rs(a, n);
+    rs(b, n);
+    as(fri, n + 1, -101);
+    
+    rep(i, n) in a[i];
+    rep(i, n) in b[i];
+    
+    rep(i, n){
+        if(fri[a[i] ] == -101) fri[a[i] ] = b[i];
+        else fri[a[i] ] = max(b[i], fri[a[i] ]);
+    }
+    
+    ans = 0;
+    
+    rep(i, n + 1) if(fri[i] > 0) ans += fri[i];
+    
+    out(ans);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
