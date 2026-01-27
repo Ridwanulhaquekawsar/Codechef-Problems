@@ -1,3 +1,33 @@
+/*
+
+Tuesday , 27 January , 2026 !
+
+☑ problem of the day done ! ╰┈➤ (Codechef Starters 112, Div 4)
+
+• Problem No. C (Max Nutrition) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/NUTRITION?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  There are some different types of nutrion value we have, we need to find the maximum nutrition value but there is twist, there can be negative nutrition value. So, we have handle it cleaverly by if condition use ! 
+
+Solution Approach : 🎯
+
+-  First of all, We'll take a vector or priority queue or frequency types container vector to store the maximum value of a certain nutrition type ! 
+
+-  And then, we'll run a loop and add the positive nutrition value to the ans variable ! 
+
+Time Complexity :  O(nlogn  / n) 🧠🧮𒅒🤔 📝 ! 
+
+Implementation Uses :  Vector of priority queue / Vector </> 👨🏻‍💻  !
+
+*/
+
+
+Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
