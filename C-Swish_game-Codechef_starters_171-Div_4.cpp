@@ -1,3 +1,41 @@
+/*
+
+Wednesday , 28 January , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef starters 171, Div 4)
+
+• Problem No. C (Swish Game) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SWISHGAME?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  Case 1 : (Swish(point) count < k)  👇
+
+   • This is basically a point collecting game, Think of this game as a basketball hoops hitting Game , When your ball goes into the hoops that indicates you point increases by 1, Here they call shesh as a individual point of this interesting game ! 
+
+     • When he moves in last index he sees that using rest of the right indexed rings or remaining of the rings we can't make equal to k which is least point we should collect but as he has less than k shish point in the array and also as he ended the game that means rest of the elements simple will be the = m + (need - 1), Because if rest of the rings number equal = needs then he won't ended the game untill he win. 
+     
+-  Case 2 : (Swish(point) >= k) 👇
+
+     • As he has more swish point than need at least k and he moves move than required and then he wish that he will not play anymore and he ended the game, So untill he end all the moves is basically indicates the overall rings in total he played in game unto end ! 
+
+Solution Approach : 🎯
+
+-  If array contain swish point < k then ans = m + (need - 1), where need = k - count of swish point of array. 
+
+- If array contains swish point >= k then answer will be, Ans = m;
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
+
+
+*/
+
+C++ Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
