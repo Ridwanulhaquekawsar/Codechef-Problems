@@ -1,3 +1,35 @@
+/*
+
+Wednesday , 28 January , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 223, Div 4)
+
+• Problem No. C (School Trip) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SCHOOLTRIP?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  Here, Three value are given where n(total student), x(Some Students want to go on trip), k(bus sit capacity) !  N, X, K. 
+
+-  We'll bring some Buses and try to fill all buses so that none of the single student remain after filling all buses ! 
+
+Solution Approach : 🎯
+
+-  We'll Calculate the remaining restudents who have not getten any seats,  so here we'll calculate that how many else student i need to bring another bus who still not think to go on trip,  so i have to manage those students, If enough students not stay among total n students then we'll simply manage those remaining students so that they don't go on the trip or we have to manage those needed students to bring another bus ! 
+
+-  Remaining Students = x % k(total bus seats) ! .
+- Required some more students = k - remaining Students ! 
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses :  Adhoc  </> 👨🏻‍💻  !
+
+*/
+
+C++ Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
