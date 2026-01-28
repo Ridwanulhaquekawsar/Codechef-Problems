@@ -1,3 +1,37 @@
+/*
+
+Wednesday , 28 January , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef starters 171, Div 4)
+
+• Problem No. B (ADVITIYA) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ADVITIYA?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  This problem is about Modulo based Cyclic rotational wrap up ! 
+
+• Small Source Case : 
+
+-  If our Source is small than destination then it is simply means that we are going in forward direction (+ve),  so here if we add the total step and then do modulo then we will find the net steps like :  (2 - 1 + 5) % 5 = ans ! 
+
+• Large Source Case : 
+
+- As our source is bigger than the destination then it is simply means we can't go forward direction well as it is already reached max destination point so we have to go backward (-ve) and then we will go forward n steps to find the rest of the forward modulo steps which optimal small distance from source to destination ! 
+
+Solution Approach : 🎯
+-  We just write a simple formula like : (Source/Begining/Starting/Initial point  - Destination/Target/End/Last Point  + n(Total steps) ) % n ;
+
+Time Complexity :  O(1) 🧠🧮𒅒🤔 📝 ! 
+
+Implementation Uses :  Adhoc, Modulo Cyclic Rotation ! </> 👨🏻‍💻  !
+
+*/
+
+C++ Code : 👇
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FastIO() ios::sync_with_stdio(0),cin.tie(0)
