@@ -1,6 +1,28 @@
 /*
 
+Thursday , 29 January , 2026 !
 
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 223, Div 4)
+
+• Problem No. E (Add to First) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ADDFIRST?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+If we find an Index where the first array's element is larger than the second one then It is not possible anymore to make an array a into an array b by increasing its elements !
+
+And If we find later on an index where array a's and array b's elements are not the same of those index then we'll where a equal to larger value exists or not of this first array before i'th index where they are mismatched.
+
+We'll calculate the prefix max of the first array so that we can operate the above of the operation well.
+
+Solution Approach : 🎯
+
+We'll precalculate the prefix max of the first array a, so that we compare both arrays and we can increase the first array elements by choosing expected value, so that we can make the first array equal to the second array exactly !
+Time Complexity : O(n) 📝
+
+Implementation Uses : Prefix Max, Adhoc </> 👨🏻‍💻 !
 
 */
 
