@@ -1,6 +1,25 @@
 /*
 
+Thursday , 29 January , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 223, Div 4)
+
+• Problem No. D (Less Than Max) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/LEQMAX?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  We have construct a subsequence where in every index i there should be 1 and if not then its previous indexed j have to contain at least one element which is just one less or immediate smaller than this current value ! 
+
+Solution Approach : 🎯
+
+-  So, to do that we'll take a multiset and run a loop when we encounter value 1 then simply we will push it to the multiset if not then we w'll check wither in previous all elements are countsin at least one less elements than this current val,  if it exists then we'll insert it into the multiset otherwise we won't do nothing ! 
+
+Time Complexity :  O(nlogn) 📝
+
+Implementation Uses :  Multiset </> 👨🏻‍💻  !
 
 */
 
