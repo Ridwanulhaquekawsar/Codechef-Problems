@@ -1,8 +1,32 @@
 /*
 
+Thursday , 29 January , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 120, Div 4)
+
+• Problem No. E (Count Subarrays) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/COUNTSUB343?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+-  If we deal with every subarray through iterating a loop and constandly expanding its size and summing up until sum goes beyond > N (Total size) ! 
+
+-  It seems like n² complexicity as we're using nested loop but in real it just talking near order of n O(N) Complexicity just, As we know that in worst testcase all value will be sorted and we expand window it just goes few of near n times loop and for rest of the windows loop just goes 1 times or some times ! 
+
+-  In this Subarray Expanding way it won't get TLE(Time limit exceeded), It will safely pass overall all test cases well. 
+
+Solution Approach : 🎯
+
+- Here, We're talking Just a nested loop and start from every window size and then we are expanding this subarray until it goes beyond the Total size n ! 
+
+Time Complexity :  O( < n²) 📝
+
+Implementation Uses :  Nested Loop, Expanding Technique like Fixed sized Window </> 👨🏻‍💻  !
 
 */
+
 
 C++ Code : 👇
 
