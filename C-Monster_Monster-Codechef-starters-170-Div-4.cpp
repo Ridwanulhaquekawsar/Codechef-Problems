@@ -1,6 +1,29 @@
 /*
 
+Sunday , 1 Fabruary , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 170, Div 4)
+
+• Problem No. C (Monster Monster) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/KO_MON?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+As we have to minimize the strength to kill all the monster using that power, We need to run a loop to find which monster has large health point !
+
+And then we have to kill that monster immediately so that later on their health point can't increased !
+
+Solution Approach : 🎯
+
+We'll iterate a loop and talking the max health power among all the monster.
+
+And that will indicate the minimum power we need to acquire, so that we can kill all that monster using this power only !
+
+Time Complexity : O(n) 📝
+
+Implementation Uses : Adhoc </> 👨🏻‍💻 !
 
 */
 
