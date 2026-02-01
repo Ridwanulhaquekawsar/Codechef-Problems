@@ -1,6 +1,27 @@
 /*
 
+Sunday , 1 Fabruary , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 187, Div 4)
+
+• Problem No. D (OR What) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/PORX?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+If we keep track in which index value's OR with target value is equal to target value then we'll find the submask of this index value, Otherwise we'll do nothing !
+
+Solution Approach : 🎯
+
+At first, we'll run a loop and check where we find submask and where we can't find.
+
+We'll maintain a answer array and until loop end we'll assign the submask value and keep undating till the end of the process.
+
+Time Complexity : O(n) 📝
+
+Implementation Uses : Submask(Bitmasking) </> 👨🏻‍💻 !
 
 */
 
