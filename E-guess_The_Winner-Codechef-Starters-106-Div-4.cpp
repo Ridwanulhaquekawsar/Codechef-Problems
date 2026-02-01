@@ -125,13 +125,7 @@ ll n;
 
 void solve(){
     in n;
-    
-    if(n == 1){
-        out("Bob");
-        return;
-    }    
-    
-    (n & 1) ? out("Alice") : out("Bob");
+    (n > 1 && n & 1) ? out("Alice") : out("Bob");
 }
 
 int main(){
