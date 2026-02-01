@@ -1,6 +1,28 @@
 /*
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 59, Div 4)
 
+• Problem No. D (Suspense String) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SUSSTR
+
+Observation : 🕵🏻‍♂️
+
+   •  As alice task is to construct an string with lexicographically smallest then When he'll find '0' Character in given string s he will Append this character to the front of the newly constructed array T, Otherwise he'll push character '1' to the end of this targeted array T to make sure it is smallest 
+   Possible ! 
+   
+   •  In Bobs turn, He'll will try to make the targeted array to lexicographically largest possible, So to do that when he'll encounter a character from the end of the array s,  and if it is '0' then he'll Append this into the last of this destiny string s, Otherwise he'll append that character to the begining of this newly generated string s to make this as large as possible accordings to Lexicography ! 
+
+Solution Approach : 🎯
+
+-   We'll run a simple loop and check wherether it is even index or odd indexing if even then we will update the string accordings to alice and vice versa. 
+
+-  Here we used this index fliping to alternating their moves one after another ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Deque </> 👨🏻‍💻  !
 
 */
 
