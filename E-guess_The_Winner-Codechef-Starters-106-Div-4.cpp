@@ -1,6 +1,29 @@
 /*
 
+Sunday , 1 Fabruary , 2026 !
 
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 106, Div 4)
+
+• Problem No. E (Guess The Winner) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/FIZZBUZZ2305
+
+Observation : 🕵🏻‍♂️
+
+If n is greater than 1 and All odd's numbers prime factor contain in odd number of times thats why for all odd number Alice will win and bob will loses !
+Solution Approach : 🎯
+
+We'll check whether n is odd or even except 1 only.
+
+If odd = Alice Wins !
+
+If Even = Bob Wins !
+• Special Case : If n == 1 then Bob will win !
+
+Time Complexity : O(1) 📝
+
+Implementation Uses : Adhoc(Game Theory) </> 👨🏻‍💻 !
 
 */
 
