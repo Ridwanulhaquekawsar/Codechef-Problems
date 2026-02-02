@@ -1,0 +1,179 @@
+/*
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 59, Div 4)
+
+• Problem No. D (Suspense String) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SUSSTR
+
+Observation : 🕵🏻‍♂️
+
+   •  As alice task is to construct an string with lexicographically smallest then When he'll find '0' Character in given string s he will Append this character to the front of the newly constructed array T, Otherwise he'll push character '1' to the end of this targeted array T to make sure it is smallest 
+   Possible ! 
+   
+   •  In Bobs turn, He'll will try to make the targeted array to lexicographically largest possible, So to do that when he'll encounter a character from the end of the array s,  and if it is '0' then he'll Append this into the last of this destiny string s, Otherwise he'll append that character to the begining of this newly generated string s to make this as large as possible accordings to Lexicography ! 
+
+Solution Approach : 🎯
+
+-   We'll run a simple loop and check wherether it is even index or odd indexing if even then we will update the string accordings to alice and vice versa. 
+
+-  Here we used this index fliping to alternating their moves one after another ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Deque </> 👨🏻‍💻  !
+
+*/
+
+C++ Code : 👇
+
+#include<bits/stdc++.h>
+using namespace std;
+#define FastIO() ios::sync_with_stdio(0),cin.tie(0)
+using ll = long long int;
+#define nl '\n'
+
+#define out(x) cout << (x) << nl
+#define in cin >>
+
+#define pinf LLONG_MAX
+#define ninf LLONG_MIN
+
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+
+#define YES cout << "YES\n"
+#define NO cout << "NO\n"
+#define Yes cout << "Yes\n"
+#define No cout << "No\n"
+
+#define f first
+#define sc second
+#define fr front()
+#define bc back()
+#define bg begin()
+#define l_b lower_bound
+#define u_b upper_bpund
+#define ed end()
+#define pu push
+#define po pop
+#define pf push_front
+#define pb push_back
+#define pob pop_back()
+#define pof pop_front()
+#define emp emplace
+#define clr clear()
+#define wh while
+#define emp_fr emplace_front
+#define emp_bc emplace_back
+#define mn_ele min_element
+#define sz(x) (ll)x.size()
+
+#define rs(v, n) (v).resize(n)
+#define as(v, sz, val) (v).assign(sz, val)
+
+#define pll pair<ll, ll>
+#define vll vector<ll>
+#define vvll vector< vector<ll> >
+#define vpll vector<pll>
+#define S string
+
+#define St set<ll>
+#define Ms multiset<ll>
+#define Mp map<ll, ll>
+#define Ump unordered_map<ll, ll>
+#define Q queue<ll>
+#define Pq priority_queue<ll>
+#define Dq deque<ll>
+
+#define rep(i, n) for(ll i = 0; i < n; i++)
+#define rrep(i, n) for(ll i = n - 1; i >= 0; i--)
+#define rep1(i, a, b) for(ll i = a; i <= b; i++)
+#define rrep1(i, b, a) for(ll i = b; i >= a; i--)
+
+vll getDivisors(ll n){
+    vll divisors;
+    
+    for(ll i = 1; i <= n/i; i++){
+    
+        if(n % i == 0){
+            divisors.pb(i);
+            if(i != n/i) divisors.pb(n/i);
+        }
+    }
+    
+    sort(all(divisors) );
+    return divisors;
+}
+
+bool isPrime(ll n){
+
+    if(n == 1) return 0;
+    else if(n == 2) return 1;
+    else if(n % 2 == 0) return 0;
+    
+    for(ll i = 3; i <= n/i; i += 2){
+        if(n % i == 0) return 0;
+    }
+    
+    return 1;
+}
+
+class cmp{
+    public:
+    bool operator()(){
+        
+    }
+};
+
+/*
+ll lcm(ll a, ll b) {
+    return (a / __gcd(a, b)) * b;
+}
+*/
+
+/*
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+
+template<typename T>
+using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+*/
+
+ll T;
+ll n;
+S s;
+deque<char>dq;
+ll l, r;
+char c;
+
+void solve(){
+    in n >> s;
+    dq.clr;
+    
+    rep(i, n/2){
+        if(s[i] == '0') dq.pf(s[i]);
+        else dq.pb(s[i]);
+        
+        if(s[n - 1 - i] == '1') dq.pf('1');
+        else dq.pb('0');
+    }
+    
+    if(n & 1){
+        if(s[n/2] == '0') dq.pf('0');
+        else dq.pb('1');
+    }
+    
+    for(auto &x : dq) cout << x;
+    cout << nl;
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
