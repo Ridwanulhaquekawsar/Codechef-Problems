@@ -1,6 +1,29 @@
 /*
 
+Monday , 2 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 169, Div 4)
+
+• Problem No. C (Hamming Equivalent) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/P4169?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+   •  In this permutation, for Indexed value we'll check the value which is present in this current indexed value's index, If that value's has same number of set bit like this current indexed value then we can swap these value easily.
+   
+   • If both of the index value contains different number of set bit then we can't swap them and then we can't ve able to sort this permutation in ascending order ! 
+
+Solution Approach : 🎯
+
+   •  We'll run a loop and continuously we'll check whether current indexed value and the current value's index value contains same number of set bit or not ! 
+   
+   • If not, then we can say it's impossible to sort this permutation in ascending or descending order as whatever we want ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Bit masking </> 👨🏻‍💻  !
 
 */
 
