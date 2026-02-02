@@ -1,5 +1,27 @@
 /*
 
+Monday , 2 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (March Cook-Off 2016)
+
+• Problem No. D (Alternating Subarray Prefix) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ALTARAY?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+   • If we keep track whether all consecutive adjacent elements of any sub-array of the given array are alternate or not according to their prefix sign then we can simply can conclude that its length is l = r - l + 1;
+   
+   • All elements are here non-zero, so zero won't come in this array. We don't need to think about zero ! 
+
+Solution Approach : 🎯
+
+   •  We'll precalculate the suffix sub-array length by using alternate condition of all adjacent consecutive elements  ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Suffix Array </> 👨🏻‍💻  !
 
 
 */
