@@ -1,6 +1,31 @@
 /*
 
+Tuesday , 3 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 169, Div 4)
+
+• Problem No. D (Make K most frequent) !
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/P3169?tab=statement
+
+Observation : 🕵🏻‍♂️
+
+• We're here tactically find out when it will give ans 0 and when it will give 1 and rest of the case it will be 2.
+
+• Intially, If K is the most Frequent then answer will be 0. If it's not then we'll run a loop and will check for each prefix or Suffix where k become Most frequent, If one of the condition is met then simply Answer will be 1. And then For the Rest of the case Answer will be 2 Just.
+
+• Because there's only three possible ans can have !
+
+Solution Approach : 🎯
+
+• Here we will maintain a Prefix map & a suffix map to see for each prefix and and suffix that where k become the most frequent !
+
+• Most Frequent Condition is : Frequency [K] >= Frequency [Over All the other Elements] !
+
+Time Complexity : O(nlogn) 📝
+
+Implementation Uses : Prefix Map, Suffix Map </> 👨🏻‍💻 !
 
 */
 
