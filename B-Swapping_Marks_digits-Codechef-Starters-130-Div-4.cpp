@@ -1,6 +1,28 @@
 /*
 
+Wednesday , 4 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 130, Div 4)
+
+• Problem No. B (Swapping Marks Digits) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SWMA
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  As we've to make 1st integer value greater than second one then we'll place the large digit first and also we've to make second integer value smaller than the 1st one then we've to just place the smaller digit in first digit position ! 
+
+
+Solution Approach : 🎯
+
+   •  We'll take these inters into two string and then we'll interchange their position to make first string equivalent integer value larger than the second string equivalent integer value ! 
+   
+   • To do that if we find first character is smaller than the second character for first string then we'll swap them, And then for second string we'll chack whether the first character is smaller or not than the second character then if so, we'll swap them ! 
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
