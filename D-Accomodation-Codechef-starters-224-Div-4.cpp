@@ -1,6 +1,37 @@
 /*
 
+Wednesday , 4 February, 2026 !
 
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 124, Div 4)
+
+• Problem No. D (Accommodation) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ACMDT?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   • At first we'll find at most how many rooms we can fill by at least boys & girls numbers and then we'll find for each room how many seats are already empty and then the total empty seats.
+   
+   • After that we'll check whether rest of the persons who has no seat yet greater or not than total empty seats.
+
+  • if so then we'll give them seats as they want. And then we'll try to clear the rooms and of these rooms people we will give seats if available and then out total rooms number will be shrink ! 
+
+ • As much as we can reduce the room allocate numbers we'll so, then that will be the final answer, What's the question asking us to do ! 
+
+Solution Approach : 🎯
+
+   •  Initially, We'll Calculate the maximum number of rooms we can Allocate ! 
+   
+   • And then we'll check whether total_empty_rooms are greater or equal then rest_of_the_persons  who has't find any seat yet ! 
+
+ • Then we'll decrement the rest_of_the_persons from total_empty_seats ! 
+
+• Finally, We'll try to clear up the rooms as much as we can and then these people will get the rest of the empty seats ! 
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
