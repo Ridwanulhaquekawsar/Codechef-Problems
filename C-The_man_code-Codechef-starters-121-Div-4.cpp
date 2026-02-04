@@ -1,5 +1,30 @@
 /*
 
+Wednesday , 4 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 121, Div 4)
+
+• Problem No. C (The Man Code) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MANCODE?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  To find maximum place where people will stand, we have to take the first position of every adjacent pair of places.
+   
+   • And similarly to find minimum places where people can stand, We should take the second place of every thriple adjacent places and have to count these.
+
+Solution Approach : 🎯
+
+   •  For finding maximum place we'll take ceil value of n which will divide by 2, ans = ceil(n/2) or ans = (n + 1)/2;
+   
+   • And also To calculate the minimum place, we'll take the ceil value of n similarly and it will divide by 3, ans = ceil(n/3) or ans = (n + 2)/3;
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
+
 
 
 */
