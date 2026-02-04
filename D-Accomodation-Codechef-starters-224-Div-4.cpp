@@ -4,7 +4,7 @@
 
 */
 
-C++ Code : Contest Time's code 👇 🙂 :
+C++ Code : 👇
 
 #include<bits/stdc++.h>
 using namespace std;
