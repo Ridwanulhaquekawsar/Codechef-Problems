@@ -1,8 +1,32 @@
 /*
 
+Thursday , 5 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 128, Div 4)
+
+• Problem No. C (MEXImize the Array) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MEXARR?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   • As we have been told to maximize the mex with minimum number of operation, Then we have to keep in mind that for a N sized array maximum possible mex is N. 
+
+   • To maximize the mex we have ensure that from 1 to N - 1, all values are contain in this array once. 
+   
+
+Solution Approach : 🎯
+
+   •  At first we'll sort the array in ascending order and then we will check whether all these 1 to N - 1, values are present or not, If not present then we we'll count how many minimum operations are needed to make this value to expected one ! 
+   
+
+Time Complexity :  O(nlogn) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
+
 
 C++ Code : 👇
 
