@@ -1,6 +1,29 @@
 /*
 
+Thursday , 5 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 121, Div 4)
+
+• Problem No. C (Anti Adjacent Swaps) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ANADSW?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Since we have been told, is it possible to sort an array using non-Adjacent swap operation,  We checked for array size 2 and 3 and for rest of the array it is possible to make sort becuase when array size is more 3 then we can swap every element exactly the way we want.
+   
+   • But for size 2 and 3 we can't swap the 2nd element with other non-adjacent element cause for 2nd element there is no non-adjacent element in size 2 and 3.
+
+Solution Approach : 🎯
+
+   •  At first we'll check whether array size is 2 or 3. If so, then we will check the 2nd element, if second element is the second smallest value then we'll print Yes, Otherwise we'll print No.
+   
+   • And then for other case it will always be Possible to sort the array ! 
+
+Time Complexity :  O(n) 📝
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
