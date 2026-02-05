@@ -1,5 +1,32 @@
 /*
 
+Wednesday , 4 February , 2026 !
+
+☑ 4th problem of the day done ! ╰┈➤ (Codechef Starters 224, Div 4)
+
+• Problem No. C (AabBcCDd) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/AABBCCDD?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  As we've to maximize the frequency of a string lower character then we'll make lower every character using "tolower()" function. 
+   
+   • And here, if we convert the 2nd largest frequency character by most frequency lower characters then we can maximize this ! 
+
+Solution Approach : 🎯
+
+   •  First we'll make every character corresponding to it's lower character using "tolower()" function.
+   
+   • And then we'll keep them in map frequency. 
+
+   • Lastly we'll push these frequency to supportive vector and we'll reverse it jn descending order. And then we'll check the vector size if it's size is less than 2 then simply we'll print the first element of this vector,  Otherwize we'll print the First two elements of this vector. 
+
+
+Time Complexity : O(nlogn) 📝
+
+Implementation Uses :  Map </> 👨🏻‍💻  !
 
 
 */
