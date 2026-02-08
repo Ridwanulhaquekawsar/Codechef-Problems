@@ -1,8 +1,38 @@
 /*
 
+Sunday , 8 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 167, Div 4)
 
 
-*/
+• Problem No. C (Temperature Balanace) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/TEMPBAL
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   • Here, one thing we have noticed that if we want to neutralise every non-zero element then we've shift them from left to right until it becoms zero.
+   
+   •  Basically, Shifting these element is indirect idea of prefix sum if we observe process clearly ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first, We'll precalculate the prefix sum.
+   • And then we'll add them into ans variable. 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Prefix Sum </> 👨🏻‍💻  !
+
+
 
 C++ Code : 👇
 
