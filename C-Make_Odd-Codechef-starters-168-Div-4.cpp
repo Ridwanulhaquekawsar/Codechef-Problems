@@ -1,6 +1,13 @@
 /*
 
+Sunday , 8 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 168, Div 4)
+
+• Problem No. C (Make Odd) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/P2P?tab=statement
 
 */
 
