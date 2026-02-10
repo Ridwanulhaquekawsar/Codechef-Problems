@@ -1,5 +1,34 @@
 /*
 
+Tuesday , 10 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 165, Div 4)
+
+• Problem No. B (Poster Perimeter) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/POSTPERI?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  As we've to minimize the difference between a rectagular permeter & the targated value. And also we are given here length's and width's allowed range, So at first we will see whether the maximum perimeter can touch the targated value or not, If so then we we will check whether this targated value k is even or not. It means whether this value is divisible by 2 or not, If it's a even number then we can print 0 otherwise 1;
+   
+   •  But here a edge case we have to condiser like if the targated value is less or equal than the number 4 then it is not possible to make any perimeter which is less than 4,  That means we can't go down the targated value and also we can't make less perimeter than 4,  So, here answer will be simply = (4 - k) ! 
+
+Solution Approach : 🎯
+
+   •  At first, We'll check whether the k is less or equal to the value 4 or not.
+   
+   •  And after that we will calculate the maximum perimeter and then we'll see whether it's less or not than value k.
+
+   •  And Lastly, we'll check whether this targated value is Even or not ! 
+
+Time Complexity :  O(1) 📝
+
+     •  Here, We have avoided the nested loop and we optimised it in order of O(1) Operation ! 
+     
+
+Implementation Uses : Adhoc </> 👨🏻‍💻  !
 
 
 */
