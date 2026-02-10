@@ -1,6 +1,35 @@
 /*
 
+Tuesday , 10 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 165, Div 4)
+
+
+• Problem No. C (Bulk Discount) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/BDISC
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Since we have been told to buy all the items here at minimum possible cost,  We wil try to sort the the array first to make the process easier and then we'll buy lowest possible priced items and then we'll gradually try to reduce the high priced items price value to make the cost as minimum as possible to buy all the items ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll sort the array in ascending order.
+   
+   •  And then we'll add the value of lowest priced items  to our answer variable,  and later in this process, we'll move to the next one until the whole process ends ! 
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  Sorting, Adhoc </> 👨🏻‍💻  !
 
 */
 
