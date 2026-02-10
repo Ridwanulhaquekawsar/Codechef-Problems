@@ -1,6 +1,35 @@
 /*
 
+Tuesday , 10 February , 2026 !
 
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 27, Div 4)
+
+• Problem No. E (The Product Mystery) ! 
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/PRODUCT?tab=statement
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  As we have to told to find minimum possible value of 📉 A, so we derived a equation like : (C * X) / B;  
+   
+   •   Here, C * X is Indirectly means the LCM of C and B,  where this multiples of C * X is smallest possible value.
+
+                       🤔
+
+•  Now, If we think it in defferent way like : C  / (B/X);  Here, since the x is minimum possible value and this B's Divisor will be max value which is also divide the Value C as well.
+
+• So, as this divisor is greatest value of these both B and C so it is the indirect idea of GCD ! 
+
+Solution Approach : 🎯
+
+   •  If we solve this Using LCM then here we'll calculate the lcm first and then we'll divide this lcm by value B;
+   
+   •  Otherwise we'll divide the Value C with GCD of B and C. 
+
+Time Complexity :  O(1) 📝
+
+Implementation Uses : Adhoc, GCD, LCM </> 👨🏻‍💻  !
 
 */
 
