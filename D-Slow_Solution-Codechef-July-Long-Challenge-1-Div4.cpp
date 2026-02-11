@@ -161,3 +161,29 @@ int main(){
 
 Shorter Version  :  👇
 
+ll T;
+ll mxT, mxN, sumN;
+ll rem;
+ll tmpT;
+ll sqN;
+
+void solve(){
+    in mxT >> mxN >> sumN;
+    
+    tmpT = sumN/mxN;
+    sqN = mxN * mxN;
+    
+    if(tmpT < mxT){
+        rem = sumN % mxN;
+        out(tmpT * sqN  +  rem * rem);
+    }
+    else out(mxT * sqN);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
