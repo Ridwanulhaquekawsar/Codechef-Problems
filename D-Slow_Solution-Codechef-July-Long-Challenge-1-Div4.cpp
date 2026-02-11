@@ -1,5 +1,37 @@
 /*
 
+Wednesday , 11 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters July Long Challenge 1, Div 4)
+
+
+• Problem No. D (Slow Solution) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/SLOWSOLN?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here, We're given the sum of N over all test cases and the maximum N for each Individual test case. So using these we'll calculate, in how many test cases/times we can distribute the max N. 
+   
+   •  And then if this Distributed test case number is less than the maximum allocated test case then we can take all the distributed max N, Otherwise we'll take only the maxT number of maxN square operation ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll calculate the Distribute test cases ! 
+   
+   •  And then we'll check whether It's greater or equal to the Maximum Allocated Test cases ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
