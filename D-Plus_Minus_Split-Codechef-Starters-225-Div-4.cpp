@@ -292,3 +292,54 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Shorter Version  : 👇
+
+
+ll T;
+St st;
+ll n;
+vll v;
+ll tmp;
+ll cnt;
+
+void solve(){
+    in n;
+    rs(v, n);
+    st.clr;
+    
+    rep(i, n){
+        in v[i];
+        st.insert(v[i]);
+    }
+    
+    if(sz(st) > 2){
+        No;
+        return;
+    }
+    
+    if(sz(st) == 1) Yes;
+    else{
+        cnt = 0;
+        
+        rep(i, n - 1){
+            if(v[i] != v[i + 1] && v[i + 1] != -v[i]){
+                No;
+                return;
+            }
+            else if(v[i] != v[i + 1]) cnt++;
+        }
+            
+        (cnt > 1) ? No : Yes;
+    } 
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
