@@ -1,5 +1,39 @@
 /*
 
+Wednesday , 11 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 225, Div 4)
+
+
+• Problem No. D (Plus Minus Split) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/PSAS?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  As we have make the all elements equal by the subtract and add operation then we've check first whether this array contain more than 2 distinct elements if so then it is not possible to make equal all the array elements ! 
+   
+   •  And then we've to check whether in this array 2 consecutive groups are present or not, and this group elements should be identical, And then it is possible to make all the elements of array elements equal otherwise not ! 
+
+
+
+Solution Approach : 🎯
+
+   •  Initially, we'll check how many distinct elements are present in this array ! 
+   
+   •  And then we'll try to find two consecutive groups of identical elements ! 
+
+   •  If we found more than two index where they are matched then we can simply print No, Cause in that situation it's not possible to make equal all the array elements by using only these two operation ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
