@@ -1,5 +1,39 @@
 /*
 
+Saturday , 14 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 160, Div 4)
+
+
+• Problem No. C (Equate S and T) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/EQUATEST?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Since we're allowed here to make any occurence of 'a' character into 'ab' and also as many as times we want ! 
+   
+   •  We'll continously convert 'a' character into 'ab' where the i'th characters are not same that means we will try to make equal character 'a' with character 'b'.  
+
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll run a backward loop and we'll take two pointer to check whether it's possible to make them equal by converting some occurence of character 'a' into 'ab' so that they become equal . 
+   
+   • In which index both of the character's are same we'll decrement both pointers. 
+
+   • But if they are not same then we'll decrement the 'b' s characters pointer behind and opposite characters's pointer will remain in the same position becasue as it's already converted into 'ab' and this pointer already pointing to character 'a' that is indirectly means that it is already in decremented state and one steps back from its current position that what we need, and that's why further decrement is not needed here anymore ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Two pointers </> 👨🏻‍💻  !
 
 
 */
