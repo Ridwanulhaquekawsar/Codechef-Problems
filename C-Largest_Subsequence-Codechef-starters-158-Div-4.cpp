@@ -1,6 +1,41 @@
 /*
 
+Saturday , 14 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 158, Div 4)
+
+
+• Problem No. C(Largest Subsequence) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/LARGESUB?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  The string, No matter what order it is in, it will always be a 1 gap between count of "ab" and "ba".
+   
+   •  If the total count of "ab"  &  "ba" is odd then the possible combination could be even + odd  or  odd + even  == odd ! 
+
+   • So if any substring's first character and the last character is same then it's actually mean then in it's middle whatever it is, the total "ab" count and "ba" count will be equal. 
+
+   • So, getting this idea, we'll try to take largest substring from the begining or the end, which has common character in it's first position and it's last position ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first, We'll run a loop and then every time we'll try to take a largest substring from the beginig postion.
+   
+   • And then we'll take the largest substring from the end which first and last characters are same ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
