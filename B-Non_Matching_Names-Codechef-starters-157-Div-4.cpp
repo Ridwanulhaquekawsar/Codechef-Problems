@@ -155,3 +155,29 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+Another Approach : 👇
+
+ll T;
+ll n, m;
+S a, b;
+St st;
+
+void solve(){
+    in n >> m >> a >> b;
+    st.clr;
+    
+    f(n) st.insert(a[i]);
+    f(m) st.insert(b[i]);
+    
+    (sz(st) < 26) ? Yes : No;
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
