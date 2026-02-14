@@ -184,14 +184,11 @@ void solve(){
     
     cnt = 0;
     
-    f(n){
-        if(a[i] > b[i]) cnt++;
-        else ans.pb(b[i] - a[i] + 1);
-    }
+    f(n) (a[i] > b[i]) ? cnt++ : ans.pb(b[i] - a[i] + 1);
     
     sort(all(ans) );
     
-    f(sz(ans) - 1){
+    f(sz(ans) ){
         if(x - ans[i] >= 0){
             x -= ans[i];
             cnt++;
