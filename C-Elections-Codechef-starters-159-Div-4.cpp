@@ -1,5 +1,41 @@
 /*
 
+Saturday , 14 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 169, Div 4)
+
+
+• Problem No. C (Elections) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/USELEC?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Since we've to make candidate A win and we've some extra votes that we can cast/use ! 
+   
+   •  We'll use this votes in which states A requires less votes to win or fewer vote needed to win and gradually use the votes where more votes are required. 
+
+  • We'll keep giving the votes as long as we have votes available ! 
+
+
+
+Solution Approach : 🎯
+
+   •   At first, We'll count in how many states the Candidate A wins.
+   
+   •  And then, we'll try to make candindate A win by using this Extra votes casting ! 
+
+  • And then we'll check whether Candidate A gets wins or not in more than half of the total states ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
