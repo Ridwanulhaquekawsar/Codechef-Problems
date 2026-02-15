@@ -210,3 +210,41 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+
+Another Approach : 👇
+
+
+ll T;
+ll n;
+vll v;
+ll curr;
+ll ans;
+
+void solve(){
+    in n;
+    rs(v, n);
+    
+    f(n) in v[i];
+    sort(all(v) );
+    
+    in curr;
+    ans = 0;
+    
+    f(n){
+        if(v[i] > curr && v[i] <= 2 * curr) swap(v[i], curr);
+        ans += v[i];
+    }
+    
+    out(ans);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
