@@ -1,5 +1,39 @@
 /*
 
+Sunday , 15 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 156, Div 4)
+
+
+• Problem No. C (Even Numbers Hate) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/EVENHATE?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Since, we're allowed to rearrange the array so that it's prefix sum array contains maximum number of odd element.
+   
+   • So, here our main task is to maximize the odd prefix sum elements.
+
+   • To do that, we can use one odd element and then rest of the elements have to choose even, After that if still have some odd elements remains then we can pair up these odd elements so that odd + odd = Even. Then final prefix sum will be  odd + even = odd ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll take an odd element and after that odd element we well place all the even numbers. 
+   
+   •  And then the remaining odd simply will place in the end of this arrangement, if odd elements we find after the process ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
