@@ -1,6 +1,41 @@
 /*
 
+Sunday , 15 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 157, Div 4)
+
+
+• Problem No. C (Not Too Far Replacement) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/TWOCLOSE?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here, our task is to place the largest possible element to the last index bucket as large as we can.
+   
+   •  After sorting 1 to N we'll continuously check whether we can swap the the current value with the last elements of the array arr[N + 1],  If current element is big and also it less than twice or equal then we can swap it.  
+
+  •  if (current <= 2 * arr[N + 1]) Swap (curr, arr[N + 1]) ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We'll take the array first,
+   
+   •  And then we'll sort the array from 1 to N.
+
+   •  After that we'll run a loop from 1 to N and constantly by pushing largest element to last index we'll add the element to our answer variable within this process ! 
+
+
+
+Time Complexity :  O(nlong) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
