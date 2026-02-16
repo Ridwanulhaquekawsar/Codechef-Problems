@@ -1,5 +1,35 @@
 /*
 
+Monday , 15 February , 2026 !
+
+☑ 4th problem of the day done ! ╰┈➤ (Codechef Starters 153, Div 4)
+
+
+• Problem No. C (Butterfly) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/BFLY?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  If the second largest and third largest sum is greater than the largest element then it will not be possible to give a flower to everyone individually to eat ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We'll check whether we can find a value that is greater than the other two values ! 
+   
+   • If we find then we'll print No, Otherwise we'll print Yes ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
