@@ -1,5 +1,39 @@
 /*
 
+Monday , 16 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 154, Div 4)
+
+
+• Problem No. C (Add 1 or 2 Game) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/ADD12GAME?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  If bob is in one step back from the target place then only in this particular case Alice will win.
+   
+   •  Otherwise in all the cases bob will have three option either go one step back or two step back from the targated place or direct targated place ! 
+
+   •  Bob will never go one step back from the targated place ! 
+
+
+
+Solution Approach : 🎯
+
+   •  Only for N == 1 Alice will win.
+   
+   • Otherwise, in all of the cases bob will win ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
