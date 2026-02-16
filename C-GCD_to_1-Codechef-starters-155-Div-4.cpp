@@ -1,6 +1,37 @@
 /*
 
+Monday , 16 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 155, Div 4)
+
+
+• Problem No. C (GCD to 1 (Easy) ) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/GCD_1?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here, We can just put one 3 and in all the other places we'll put 2 ! 
+   
+   •  One thing we have noticed that here two scenario can happen. That is either Row will grow and Column will be fixed or Column will be grow and Row will be fixed ! 
+
+
+
+Solution Approach : 🎯
+
+   •  When we'll find a place where both index are same then we'll print here 2. 
+   
+   • If  (i == row - 1,  &&  j >= row)  Or  (i >= col && j = col - 1),  then we will print 2 here also. Otherwise we'll print 3.
+
+
+
+Time Complexity :  O(n²) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
