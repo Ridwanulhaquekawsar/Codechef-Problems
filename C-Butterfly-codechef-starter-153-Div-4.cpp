@@ -154,3 +154,23 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Another Approach : 👇
+
+ll T;
+ll r, g, b;
+
+void solve(){
+    in r >> g >> b;
+    (r > g + b || g > r + b || b > r + g) ? NO : YES;
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
