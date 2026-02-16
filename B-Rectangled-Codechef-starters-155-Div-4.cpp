@@ -1,6 +1,42 @@
 /*
 
+Monday , 16 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 155, Div 4)
+
+
+• Problem No. B (Rectangled) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/RCTGLD?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  We know that if we want draw a rectangle then we have consider 4 integral sides and also if we want to maximize the area then we need to maximize the length and with both ! 
+
+   • Here, our main task is to calculate largest length and width using this available unit ! 
+
+
+Solution Approach : 🎯
+
+   •  At first we'll divide it into 4 parts so that we can distribute it to 4 sides ! 
+   
+   • And then if remainder has more than 1 we can simply make pair up and we'll put it in length sides or width side as we like ! 
+
+   • Here, if we divide the available unit in two parts then remainder of 4 division will be goes equally to the both parts. 
+
+   •  As both parts has length and  width and also a extra 1, then we can take this one with width side by subtracting the length ! 
+
+   • length = n/4.   Width = n/2 - n/4;
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
