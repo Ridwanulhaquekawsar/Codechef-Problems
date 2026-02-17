@@ -1,5 +1,39 @@
 /*
 
+Tuesday , 17 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef July Cook-off 2011, Div 4)
+
+
+• Problem No. B (Garden Squares) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/GARDENSQ
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here our task is basically to find such number of squares whose four corner cells have the same characters ! 
+   
+   •  To do that if we expand row and column size everytime by 1 untill it exceed the boundary of row and column,  and check check these four corner are same or not then we will find that how many such square have whose four corners are same ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We'll run a nested loop and then from every cell we'll start from one step ahead of the row and column of that cells and then we'll keep increasing the starting point untill it reach the boundary ! 
+   
+   •  So, in this process we'll check the top-left corner, top-right corner, bottom-left corner and then bottom-right corner.
+
+   • If all the corner are same then we'll  count it as a valid square ! 
+
+
+
+Time Complexity :  O(n²) 📝
+
+
+Implementation Uses :  Nested loop </> 👨🏻‍💻  !
 
 
 */
@@ -199,4 +233,45 @@ int main(){
     T = 1;
     in T;
     while(T--) solve();
+}
+
+
+Slightly Shorter Version : 👇
+
+ll T;
+vs v;
+ll n, m;
+ll x, y;
+ll val;
+ll ans;
+S s;
+
+void solve(){
+    in n >> m;
+    rs(v, n);
+    
+    f(n){
+        in s;
+        v[i] = s;
+    }
+    
+    ans = 0;
+    
+    rep(i, n){
+        rep(j, m){
+            x = i + 1;
+            y = j + 1;
+            
+            wh(x < n && y < m){
+                val = v[i][j];
+                
+                if(val == v[x][y] && val == v[x][j] && val == v[i][y]) ans++;
+                
+                x++;
+                y++;
+            }
+        }
+    }
+    
+    out(ans);
 }
