@@ -1,5 +1,41 @@
 /*
 
+Tuesday , 17 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 152, Div 4)
+
+
+• Problem No. B (Range Minimize) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MNR?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here our main task is to minimize the array range that means we have to minimize the difference between max value and min value of the given array.
+   
+   •  Although we are allowed to delete one element or at most two elements, we won't delete only one element we'll delete two elements every time cause the given array size won't less than 3 ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll delete first two elemets. So then the range will be, First = v[n - 1] - v[2];
+   
+   •  And then we'll delete last two elements. After that the array range will be, Second = v[n - 3] - v[0];
+
+   •  And finaly we'll delete the first and last elemets from the given array. So the array range will be then, Third =  v[n - 2] - v[1];
+
+     •  We'll take the minimum range among these three range, Ans  =  min(First, Second, Third) ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
