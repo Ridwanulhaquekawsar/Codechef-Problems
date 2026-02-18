@@ -349,3 +349,50 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Another Approach : 👇
+
+
+ll T;
+ll n, k;
+vll v;
+Mp mp;
+vll ans;
+ll cnt;
+
+void solve(){
+    in n >> k;
+    rs(v, n);
+    mp.clr;
+    ans.clr;
+    
+    f(n){
+        in v[i];
+        if(v[i] != v[0]) mp[ v[i] ]++;
+    }
+    
+    for(auto &[val, fri] : mp) ans.pb(fri);
+    sort(all(ans) );
+    
+    cnt = sz(mp) + 1;
+    
+    f(sz(ans) ){
+        if(ans[i] <= k){
+            k -= ans[i];
+            cnt--;
+        }
+        else break;
+    }
+    
+    out(cnt);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
