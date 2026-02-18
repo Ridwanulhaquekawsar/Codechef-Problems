@@ -337,7 +337,6 @@ void solve(){
             mp.erase(ans[j].se);
             j++;
         }
-        else break;
     }
     
     out(sz(mp) + 1);
