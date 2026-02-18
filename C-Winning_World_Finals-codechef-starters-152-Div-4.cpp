@@ -1,5 +1,39 @@
 /*
 
+Wednesday , 18 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 152, Div 4)
+
+
+• Problem No. C (Winning World Finals) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/WFWIN?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  For the last submission there is no extra time penalty except this time length. 
+   
+   •  So after the passed time in each minute there will be a chance to make wrong submission if time penalty stay less or equal to the total time penalty.
+
+   • For every minute of wrong submission we'll be count extra 20 minutes time penalty so then current total time penalty will be = (20 + 1).
+
+
+
+Solution Approach : 🎯
+
+   •  After passed time we will be calculate that how many else wrong submission we can make.  We'll calculate the number of wrong submission we can make by residue time penalty divide the 21(20 is extra + 1 is for current moment submission time) ,  (1000 - (m + p) ) / 21.
+
+   • And then we'll check whether there is remaining time is greater or equal to the corresponding number of wrong submissions, If it is satisfy the condition then we'll print the number wrong submission times otherwise we'll print the remaining time where we can make wrong submission equal to this remaining time frame ! 
+
+
+
+Time Complexity :  O(1) & O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
