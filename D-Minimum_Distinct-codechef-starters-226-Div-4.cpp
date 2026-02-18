@@ -1,6 +1,37 @@
 /*
 
+Wednesday , 18 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 226, Div 4)
+
+
+• Problem No. D (Minimum Distinct) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/START226D/problems/MINDIS6?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here we're allowed to perform certain number operations on the given array and also we're asked to minimize the number of distinct elements in the array ! 
+   
+   •  To do that if we find the lower frequency elements and replace them first and then larger frequency if it is possible to do ! 
+
+
+
+Solution Approach : 🎯
+
+   •   At first we'll find all lower frequency elements first and then we'll reduce them one by one by using maximum operation we can make ! 
+   
+   •  And then we'll print the remaining distinct elements after performing the required operations ! 
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  map, set, Adhoc </> 👨🏻‍💻  !
 
 */
 
