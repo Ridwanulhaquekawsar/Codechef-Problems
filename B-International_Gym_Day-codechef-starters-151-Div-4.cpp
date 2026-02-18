@@ -1,6 +1,42 @@
 /*
 
+Thursday , 19 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 151, Div 4)
+
+
+• Problem No. B (International Gym Day) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/GYMDAY?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here, this statement tells us that everytime when we'll attend a trial session then we'll get D% Additional cumulative discount !  And also we have to pay 1 budget point for that trial session = Budget--.
+   
+   •  After talking some trial session there gym subscription cost will be reduce  when we'll use this total D% discount ! 
+
+   •  After using discount if gym subscription cost become less or equal than our total budget then we can easily talking lifetime access,  Otherwise we can't get the lifetime Subscription of that gym ! 
+
+
+
+Solution Approach : 🎯
+
+   •  Initially, we'll run a loop from 1 to our total budget points, because we can take the session at most b(budget) times ! 
+   
+   •  So in this process we'll calculate that how session needed to make equal or less this subscription than our total budget.
+
+
+   • If we find a point where reduced cost is less or equal to our total budget then we'll print this point, this point will indicate that how many trial session we have to take to get the lifetime Subscription, Otherwise we'll print -1 ! 
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc  </> 👨🏻‍💻  !
 
 */
 
