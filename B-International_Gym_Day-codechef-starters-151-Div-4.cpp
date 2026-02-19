@@ -228,3 +228,43 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+
+Another Approach : 👇
+
+ll T;
+float d, c, b;
+float tmp;
+ll cnt;
+
+void solve(){
+    in d >> c >> b;
+    
+    cnt = 0;
+    tmp = (d * c)/100;
+    
+    wh(c > b){
+        c -= tmp;
+        b--;
+        c = round(c * 100) / 100;
+        
+        if(b == 0 && c > 0){
+            out(-1);
+            return;
+        }
+        
+        cnt++;
+    }
+    
+    out(cnt);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
