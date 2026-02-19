@@ -1,6 +1,40 @@
 /*
 
+Thursday , 19 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 151, Div 4)
+
+
+• Problem No. C (Convert String) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/SAMESTR?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this Problem statement it says that to make all the string elements equal we can choose k elements and in total we have to do k operation on this k elements and it is interestingly says that we can perform this operation arbitrarily on these k elements as we want in total k times.
+   
+   •  So, to do that if somehow can know whether there is length which is less or equal than our selected k and if there identity of parity is same then we can definitely make this string elelements equal using this k operation ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll calculate the smallest odd and smallest even length where all elements are same ! 
+   
+   •  And then we'll run a loop from k = n to k = 1, then we'll check wherther there is any subsequential length in this string which all elements are same or not and also its length is less or equal to this k or not , If so then we'll count it as a valid k ! 
+
+   • After the loop end we'll print the Answer Variable ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
