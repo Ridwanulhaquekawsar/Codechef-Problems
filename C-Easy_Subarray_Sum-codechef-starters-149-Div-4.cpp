@@ -240,3 +240,50 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Another Approach : 👇
+
+ll T;
+ll n;
+vll v;
+bool ok;
+ll ans;
+ll l, r;
+
+void solve(){
+    in n;
+    rs(v, n);
+    
+    l = -1;
+    ok = 1;
+    
+    f(n){
+        in v[i];
+        
+        if(v[i] > 0 && ok){
+            l = i;
+            ok = 0;
+        }
+    }
+    
+    if(l == -1) out(0);
+    else{
+        r = n - 1;
+        wh(r > 0 && v[r] <= 0) r--;
+        
+        ans = 0;
+    
+        wh(l < r) if(v[l++] < 0) ans++;
+        out(ans);
+    }
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
