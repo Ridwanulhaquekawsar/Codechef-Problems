@@ -1,6 +1,38 @@
 /*
 
+Friday , 20 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 149, Div 4)
+
+
+• Problem No. C (Easy Subarray Sum) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/P3149?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   • In this problem, we are told us to find maximum(longest) subarray length whose sum is Zero(0). 
+   
+   • So, here one thing we can observe that after last positive number in this array, there can't be find any element which can contribute to our maximum subarray length. And same goes for first left side positive number because before this positive number there can't be find any value which can contribute to this maximum subarray sum ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll find the leftmost positive number and then the rightmost positive number.
+   
+   • And then we'll run a in this range and will calculate that how many negative value are there in this range which we have to eliminate to maximize that longest subarray length we have taken ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc  </> 👨🏻‍💻  !
 
 */
 
