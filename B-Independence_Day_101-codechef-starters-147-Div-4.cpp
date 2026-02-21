@@ -1,6 +1,39 @@
 /*
 
+Saturday , 21 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 147, Div 4)
+
+
+• Problem No. B (Independence Day 101) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/INDEPENDENCE?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we have given 3 different color types some strips and also says that whether it is possible or not to make a flag where any of two adjacent strip are not same according to their color type ! 
+   
+   •  So, here we have observed one thing is that if the 2nd and 3rd largest element sum is greater or equal to the one less of largest most element then it is possible to make such a flag where it's no two adjacent strips share the same color ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll sort the variable a, b, c.
+   
+   • And then we'll check whether the sum of a & b is greater than or equal to that value (c - 1). 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
