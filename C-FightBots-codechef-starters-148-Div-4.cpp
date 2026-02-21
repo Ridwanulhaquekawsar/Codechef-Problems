@@ -1,6 +1,38 @@
 /*
 
+Saturday , 21 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 148, Div 4)
+
+
+• Problem No. C (FightBots) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/FIGBOT?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem, it says that is there any sequence where both cordinate will be equal. 
+   
+   •  Here one thing we can observe that if in a certain moment after few steps of alice robot when it will stant on last position of manhattan distance of Bob's robot then it will be possible become equal both of this cordinate ! 
+
+
+
+Solution Approach : 🎯
+
+   • At first we'll calculate the manhattan distance of bob's robot between bob's and alice robots end position ! 
+   
+   • And then we'll check that the distance is whether equal or not with the number of steps both of they have made in this process ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
