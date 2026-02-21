@@ -1,5 +1,48 @@
 /*
 
+Saturday , 21 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 147, Div 4)
+
+
+• Problem No. C (Truth Teller And Liars) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/TRUTHLIE?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here in this problem we are given x Truth Teller and y Liars people and also says that whether it is possible or not to select minimum number people to ask them to sure the Eternal Happiness path ! 
+   
+   •  It can be possible to select people to ensure exact eternal hapiness path if truth people number is higher than the liars people !  
+
+   • Why it is possible, Beacuse if we randomly take 2m(liars) people then there m people may say truth and m people may say false,  So i can't take decision because which group are rightly saying the exact path, Now i want one more people because there can't be more liears then m people so here higher group will indicate the truth teller group ! 
+
+   • As there can only be m people then rest of the people group opinion will be the answer.
+
+   • If teller number is higher than truth teller people then it is not possible to take any x where it can be sure the exact right path ! 
+   Beacuse Regardless of which number of people we take, all are can be liar !   😆
+
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll see which group is bigger ! 
+   
+   • If truth teller number is larger than liars then answer will be = (2m + 1).
+
+   • Otherwise, Answer will be -1.
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc  </> 👨🏻‍💻  !
 
 
 */
