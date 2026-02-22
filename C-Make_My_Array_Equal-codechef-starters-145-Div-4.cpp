@@ -1,6 +1,38 @@
 /*
 
+Sunday , 22 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters , Div 4)
+
+
+• Problem No. C (Make my array equal) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/MEBA?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are asked to determine whether it is possible to make the array equal or not ! 
+   
+   • It is only possible to make array equal when there is only one non-zero element in this array, Otherwise not ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll check how many non zero are given in this array ! 
+   
+   • If non-zero element number is less than 2 then only it is possible to make array elements equal ! 
+
+
+
+Time Complexity :  O(n & nlogn) 📝
+
+
+Implementation Uses :  Set / Adhoc  </> 👨🏻‍💻  !
 
 */
 
