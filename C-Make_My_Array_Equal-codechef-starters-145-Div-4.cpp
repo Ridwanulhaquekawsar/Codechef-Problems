@@ -346,7 +346,7 @@ int main(){
 }
 
 
-Another Approach : 👇
+2nd Approach : 👇
 
 ll T;
 ll n;
@@ -368,6 +368,42 @@ void solve(){
 int main(){
     FastIO(); 
 
+    T = 1;
+    in T;
+    while(T--) solve();
+}
+
+
+
+3rd Approach : 👇
+
+ll T;
+ll n;
+ll x;
+ll val;
+bool ok;
+
+void solve(){
+    in n;
+    
+    val = -1;
+    ok = 0;
+    
+    f(n){
+        in x;
+        
+        if(x != 0){
+            if(val == -1) val = x;
+            else {if(x != val) ok = 1;}
+        }
+    }
+    
+    (ok) ? NO : YES;
+}
+
+int main(){
+    FastIO(); 
+    
     T = 1;
     in T;
     while(T--) solve();
