@@ -1,6 +1,37 @@
 /*
 
+Monday , 23 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 143, Div 4)
+
+
+• Problem No. B (Maximum Coins) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/MAXCOIN?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  There are a total n of matches ! From 1 to (n - x)'th matches we'll lose and we have to pay 2^i amount of score to opponent who wins the game from (n-x) to n ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll calculate the score from 1 to (n-x)'th index ! 
+   
+   •  And then we'll subtract them from opponent who wins x matches ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
