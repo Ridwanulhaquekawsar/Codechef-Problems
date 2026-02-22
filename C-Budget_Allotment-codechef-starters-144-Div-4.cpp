@@ -1,5 +1,39 @@
 /*
 
+Sunday , 22 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 144, Div 4)
+
+
+• Problem No. C (Budget Allotment) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/BUDGET25?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are given initial annual budget of some sectors and also given the standard budget for each sector !  We are allowed to transfer extra budget residue above standard budget ! 
+   
+   •  Using this extra budget transferring operation we can maximize the sector number which has at least standard budget ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll count how many budget are there which is above the standard level budget and also we'll store the extra budget residue above required level. 
+   
+   •  And then using this extra budget we'll make some else budget for some sectors whore initial budget level was below the standard budget level.
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses : Adhoc  </> 👨🏻‍💻  !
 
 
 */
