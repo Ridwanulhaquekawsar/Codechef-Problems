@@ -1,5 +1,41 @@
 /*
 
+Sunday , 22 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 146, Div 4)
+
+
+• Problem No. C (Knockout Tournament) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/KNOCKOUT?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are given the skill level of Sixteen(16) people and also asking to us to tell that how many match the i'th parson can be win if the initial arrangement of the round we take optimally ! 
+   
+   •  The main observable thing here is if before the i'th person skill level has less than 1 person then he can win in 0 matches and then if there is less than 3 then he can win in 1 match and then if less than 7 then he can win in 2 matches, and then it less than 16 then he can win in 3 matches.
+
+  If it is the largest skill level then he can be win in 4 matches if we choose it optimally ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll take the input array, And then we'll sort the array in ascending order. 
+   
+   •  And then we'll check the i'th person skill level position. According to it's skill level position we'll update it's winning possibility in a map by checking required condition ! 
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
