@@ -1,5 +1,41 @@
 /*
 
+Monday , 23 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 142, Div 4)
+
+
+• Problem No. C (Chef Loves Pizza Chef Loves Halfs) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/CHEFIZZA?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we're given some sequential sliced piece of a circle , When we slice in equal piece of a circle in sequential order then it's sliced number become twice then before ! 
+   
+   • If given sliced number is less than the immediate higher value which is the power value of 2 !  That means higher power of 2 that is 2^i !  
+
+   • Here this (Higher value - given sliced value) value will indicate the number of larger sliced piece of the circle ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll calculate immediate higher power value of 2 ! 
+   
+   • And then we have to subtract this (higher value - given value) value from out given sliced piece becuse we need small sliced pieces only and this number is actually larger sliced piece number that's why we need to subtract to find small sliced piece ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc  </> 👨🏻‍💻  !
 
 
 */
