@@ -1,5 +1,54 @@
 /*
 
+Monday , 23 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 143, Div 4)
+
+
+• Problem No. C (Binary Conversion) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/CONVERT?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here we are given two strings and Using exactly k swapping operation we have make them equal ! 
+   
+   •  If the number of mismatch parity is less than or equal to the k operation and also it's size is greater than 2 then it is possible to make them equal both the strings ! 
+
+   • When n == 2 that time we have to check some condition like : 👇
+
+     • If both of the string same and their all elements same then it's possible ! 
+
+     • If both of the same but their elements are't same and there's no such mismatch parity and also k is even then it's possible otherwise not ! 
+
+     • If both of them are't not equal and k is odd then it is possible otherwise not ! 
+
+
+ • Another Condition here is if the number of count '0' characters of s and t are not same then it's also not possible to make them equal ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll count the number of missmatch parity and their '0' chracters  both of them ! 
+   
+   • After that we'll check whether their count of '0' characters are same or not ! 
+
+   • And then we'll check condition of the case where n is 2 ! 
+
+   • Finally we'll check whether the number of missmatch parity is less than or equal to the k operations ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
