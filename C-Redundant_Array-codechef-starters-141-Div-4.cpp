@@ -1,6 +1,41 @@
 /*
 
+Tuesday , 24 February , 2026 !
 
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 141, Div 4)
+
+
+• Problem No. C (Redundant Array) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/REDUARRAY?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are given an array and we're asked to say what's minimum cost to make array elements equal . 
+   
+   • Here, we're allowed to select a subarray portion of the array from L(left) bound to R(right) Bound and replace these portion elements by another random chosen integer Number ! 
+
+  
+  • If we check for every occurence number by relacing all the elements of the array except this one !  We won't replace it where it already exists ! 
+
+  • Additionally we'll check whether by replacing all elements by 1, is it possible or not to get minimum operation cost that we need ! 
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll find every elements frequency and then we'll try to find which occurence of elements will give the minimum operation cost if we replace remaining elements with it ! 
+   
+   •  Lastly we'll check occurence of 1 are present or not and then if we replace all the remaining elements by 1 then we'll check whether it's possible or not to get minimum operation Cost ! 
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  Ad-hoc, Map </> 👨🏻‍💻  !
 
 */
 
