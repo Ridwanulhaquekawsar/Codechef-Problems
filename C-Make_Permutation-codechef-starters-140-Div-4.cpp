@@ -1,5 +1,37 @@
 /*
 
+Tuesday , 24 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 140, Div 4)
+
+
+• Problem No. C (Make Permutation) !
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MAKEPERM?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are given an array A and says that whether it's possible or not to make a permutation by talking help another array B.  That is A + B == C, where c is a permutation array ! 
+   
+   • As we know in a permutation every integer from 1 to N contained once, so in this given array already has some integer with some multiple occurrence, so using this multiple occurrence remaining integer we'll check is it possible to get/make missing permutation rest of the integers ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll delete the single occurrence of already exist in this array. 
+   
+   • And by using rest of these occurrence we'll check whether we can make the missing integer of permutation N ! 
+
+
+
+Time Complexity :  O(nlogn && n²) 📝
+
+
+Implementation Uses :  Ad-hoc(Constructive) </> 👨🏻‍💻  !
 
 
 */
