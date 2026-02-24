@@ -210,3 +210,49 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Another Way : 👇
+
+ll T;
+ll n;
+vll v;
+Mp mp;
+vll ans;
+
+void solve(){
+    in n;
+    rs(v, n);
+    mp.clr;
+    ans.clr;
+    
+    f(n){
+        in v[i];
+        mp[v[i]]++;
+    }
+    
+    f1(1, n){
+        if(mp[i]) v.er(fd1(v, i) );
+        else ans.pb(i);
+    }
+    
+    sort(all(v) );
+    
+    f(sz(ans) ){
+        if(v[i] > ans[i]){
+            NO;
+            return;
+        }
+    }
+    
+    YES;
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
