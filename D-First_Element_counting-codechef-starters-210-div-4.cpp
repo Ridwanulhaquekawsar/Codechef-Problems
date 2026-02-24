@@ -1,5 +1,41 @@
 /*
 
+Tuesday , 24 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 210, Div 4)
+
+
+• Problem No. D (First Element Counting) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/FIRSTCNT?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem, we are given a array for each element we have to find out that how many x integers are there which is closest to this array elements and farthest from all of others elements of this array ! 
+   
+   •  If any of the integer value x closeat to more than one elements simultaneously then the lower elements will own this integer value beacuse we'll consider that it's the nearest from this lower array value than higher ! 
+
+
+
+Solution Approach : 🎯
+
+   •  At first, we'll sort the array in ascending order and then we'll calculate left mid and right mid ! 
+   
+   •  for each v[i] if(v[i] - Lmid >= Lmid - v[i - 1]) then map[v[i]] += v[i] - Lmid - 1, otherwise map[v[i]] += v[i] - Lmid;
+
+   • And also for right side and even itself this value the x count will be map[v[i]] += Rmid - v[i] + 1;
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
