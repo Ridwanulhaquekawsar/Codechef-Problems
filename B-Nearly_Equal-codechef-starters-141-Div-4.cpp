@@ -192,3 +192,30 @@ int main(){
 
 Another Way : 👇
 
+ll T;
+ll n, m;
+S a, b;
+ll mn, cnt;
+
+void solve(){
+    in n >> m >> a >> b;
+    
+    mn = pinf;
+    
+    f(n - m + 1){
+        cnt = 0;
+        
+        rep(j, m) if(a[i + j] != b[j]) cnt++;
+        mn = min(mn, cnt);
+    }
+    
+    out(mn);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
