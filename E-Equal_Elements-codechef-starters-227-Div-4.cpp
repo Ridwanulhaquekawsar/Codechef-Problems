@@ -1,5 +1,39 @@
 /*
 
+Wednesday , 25 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 227, Div 4)
+
+
+• Problem No. E (Equal Elements) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/EQELE?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we're given an array and says to find out a longest subsequence which all of the adjacent pairs are equal they follow this condition like : Array2*i - 1 == Array2i !   
+   
+   •  As here just adjacent is matters it's not binding in ny rule, other threads or sequential law it just need adjacent identical / Symmetrical pairs, And we'll to take this pairs as much as we can take to maximize the sub-sequence length ! 
+
+
+
+Solution Approach : 🎯
+
+   •  So, to do that at first we'll keep track the numbers by a map and then when we'll come across this value again then we'll reset out map and we'll count this as a valid pairs. Process will continue untill the loop end ! 
+   
+   • And then we'll print twice of pairs that we've count like this way :  
+      • Out(2 * CountOfValidPairs) ! 
+
+
+
+Time Complexity :  O(nlogn) 📝
+
+
+Implementation Uses :  Adhoc, Map </> 👨🏻‍💻  !
 
 
 */
