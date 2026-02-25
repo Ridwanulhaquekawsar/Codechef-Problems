@@ -1,5 +1,39 @@
 /*
 
+Wednesday , 25 , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 139, Div 4)
+
+
+• Problem No. C (Maximum Distance Permutations) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MAXDISTPERM?tab=statement
+
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  we are given an Integer number N and told us to make 2 permutation A & B such that their | Ai - Bi | minimum value across  all the pairs from 1 to N index become largest! 
+   
+   • That we have maximize this minimum absolute Difference as much as we can.
+   One thing is observable here that is if we right shift second permutation gradually from left to right at the certain point when N/2(Half) times right shift has done then we can get the maximum distance of minimum absolute distance across all the index among Permutation A and B.
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll print first permutation A. 
+   
+   • And then we'll print left Half of Second permutation from (mid + 1) to  N  and Right half from (1 to mid) ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Ad-hoc, Cyclic Shift </> 👨🏻‍💻  !
 
 
 */
