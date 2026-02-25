@@ -1,5 +1,39 @@
 /*
 
+Wednesday , 25 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 227, Div 4)
+
+
+• Problem No. D (Erase and Maximize) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/DICEERMAX
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  Here, we're given N dice and also A Sum integer Number which can be built by selecting a specific side face from N dice ! 
+   
+   • If the the Sum exceed than (5 * N) then that means whithout talking any 6 we can't build the some so in which dice we're forced to take for building that sum then from this dice we can only take later 5 as a largest number to maximize our total score.
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll check that whether the sum is less than or equal to the (5 * N) ! 
+   
+   • If not, then we'll check in how many such dice are there don't have 6 that we can take.! Beacuse this 6 is already replaced by 0 after it talking for building targated sum ! 
+
+   • In all the places, where we couldn't take a six, we'll take 5 that means wherever we couldn't take a six, We'll take 5 Instead ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
