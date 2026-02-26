@@ -1,6 +1,53 @@
 /*
 
+Thursday , 26 February , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 138, Div 4)
+
+
+• Problem No. B (Long Drive) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/LONGDRIVE?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem we are given a velocity which is obtained after driving for 10 hours. 
+  And also says that this vehicle can travel at max 100 kilometers in one hour !  It is also given target valocity that we need to achieve after driving certain hour !  So, our main task is to calculate this integer hour where after this integer hour driving re can reach our goal velocity ! 
+
+
+   •  We can do it in mathematically like : 
+
+     New Distance : (10 * x  +  100k);
+     New Time     : (10 + k);
+
+•  Velocity :  (New Distance) / (New Time) ;
+
+If(velocity >= y) Yes;
+
+
+Now we can Calculate the Extra integer desired Hours that we need :
+
+     K >= 10 * (y - x) / (100 - y) ;
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll calculate the New Distance and then New total time.
+   
+   • And then we'll calculate the desired velocity. 
+
+   • And Finally, We'll calculathe the exact integer extra hour time that we need to achieve desired targated Velocity ! 
+
+
+
+Time Complexity :  O(n && 1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
