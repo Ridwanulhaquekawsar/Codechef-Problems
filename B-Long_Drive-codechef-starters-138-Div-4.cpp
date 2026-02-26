@@ -190,3 +190,28 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+
+Another Way : 👇
+
+ll T;
+ll x, y;
+ll numerator, denominator;
+
+void solve(){
+    in x >> y;
+    
+    numerator = 10 * (y - x);
+    denominator = (100 - y);
+    
+    out( (numerator + denominator - 1)/denominator);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
