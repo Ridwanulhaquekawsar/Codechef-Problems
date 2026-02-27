@@ -1,5 +1,40 @@
 /*
 
+Friday , 27 February , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 137, Div 4)
+
+
+• Problem No. B (Spell Splice) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/CMIX?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this Problem we're given N pairs of Numbers. Here, We can take two different pairs, And our task is basically to choose such two pairs where their diagonal or in crossline numbers multiples sum becomes as big as possible, That means we have to maximize the diagonal multiples sum ! 
+
+  • To do that we can take help of nested loop trick !  
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll run a nested loop. 
+   
+   •  And then we'll choose two different pairs and then we'll add their dional number multiples.
+
+   • And then we'll store this value after comparing to the max variable answer ! 
+
+
+
+Time Complexity :  O(n²) 📝
+
+
+Implementation Uses :  Nested Loop </> 👨🏻‍💻  !
 
 
 */
