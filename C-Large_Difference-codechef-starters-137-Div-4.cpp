@@ -1,5 +1,43 @@
 /*
 
+Friday , 27 February , 2026 !
+
+☑ 3rd problem of the day done ! ╰┈➤ (Codechef Starters 137, Div 4)
+
+
+• Problem No. C (Large Difference) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/HIDIF?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem, We're given ar array and we can replace a single element from the array exactly once. We can replace that choosen element with an integer K, whose range is from 1 to X. 
+   
+   • Here, our main task is to maximize the sum of all adjacent elements pairs ! 
+
+   • We can do this by replacing each element once with 1 and X. and then after checking whether sum is increased or not, we can calculate the largest different ! 
+
+   • Why this technique works, because here 1 is the bottom farthest boundary and X is Top farthest boundary from both elements, this distance is actually the largest among all the other distance. That's why we everytime replaced every with the 1 and X to find largest Distance, which we need ! 
+
+
+
+Solution Approach : 🎯
+
+   • First of all, We'll run a loop and then replace once with 1 the current element and also with the integer X.
+   
+   • And then We'll calculate current and New Difference ! 
+
+   • If after replacing the adjacent sum increased then we'll track it our answer variable ! This process will continue untill the loop ends ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
