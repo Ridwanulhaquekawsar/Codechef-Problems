@@ -1,5 +1,44 @@
 /*
 
+Friday , 27 February , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 138, Div 4)
+
+
+• Problem No. C (Distinct Subarray) ! 
+
+
+• Problem Link : ⤵︎
+
+https://www.codechef.com/problems/DISTSUB?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem, We're given two Integer. one is indicating actually what will be the array length and second Integer basically means how many distinct subarray of 0's this array should contain ! 
+   
+   •  So, here if we obseved one thing is that distict subarray lengths are following natural number incremental series, that means growing-up step by step in size like, 1, 2, 3 and so on ! 
+
+       • So, we can calculate these k subarray lengths by this mathmatical Formula like :  k * (k + 1) / 2. 
+
+Since here, these k subarray is asked to be considered or imagined as islands and also in between two different islands there is a boundary by a string character  '1',  and that's why we need (k - 1) bounday between them for k distinct subarray ! 
+
+
+
+Solution Approach : 🎯
+
+   •  In the first place, We'll calculate the length of these k distinct subarray . 
+   
+   • And then we'll check the condition like, if (k * (k + 1) / 2  +  (k - 1) <= n) Yes;
+
+  Otherwise No;
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
