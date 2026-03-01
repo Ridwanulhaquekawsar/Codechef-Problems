@@ -1,6 +1,37 @@
 /*
 
+Sunday , 1 march , 2026 !
 
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 136, Div 4)
+
+
+• Problem No. B (Even Sum Subarray) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/EVENSUMSUB?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️
+
+   •  In this problem, we're given an array and asked to find the maximum subarray length whose sum is even ! 
+   
+   • The subarray length of after 1st odd number and before last odd number will be largest possible where its total sum is even ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We Approached it in two different ways, One is simple nested loop and second is by talking first odd number index and second odd number index. 
+    
+   • Then answer will be = max(n - (i + 1), j + 1).
+
+
+
+Time Complexity :  O(n² & n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 */
 
