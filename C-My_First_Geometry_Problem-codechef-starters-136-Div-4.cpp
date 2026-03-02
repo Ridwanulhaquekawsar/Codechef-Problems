@@ -197,3 +197,29 @@ int main(){
 Another Way : 👇 
 
 
+ll T;
+S s;
+ll x, y;
+
+void solve(){
+    in s;
+    
+    x = 1;
+    y = 1;
+    
+    if(s[0] == '1') x += 10;
+    if(s[1] == '1') x += 10;
+    
+    if(s[2] == '1') y += 10;
+    if(s[3] == '1') y += 10;
+    
+    out(x * y);
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
