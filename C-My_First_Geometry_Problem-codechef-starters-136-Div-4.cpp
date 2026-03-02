@@ -1,8 +1,41 @@
 /*
 
+Monday , 2 March , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 136, Div 4)
+
+
+• Problem No. C (My First Geometry Problem) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/FIRSTGEO?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️ 🧠
+
+   •  In this problem, We're given a string and its first index will tell us whether we can move to the right or not  and the second index determines whether moving to the left is allowed. And then 3rd index will tell us whether we can move upward or not. And finally 4'th index determines whether moving downward is allowed ! 
+   
+   •  Here, in this string if we find 3 '1's character then we can say it will occupy half of the total cells and if there are 4 '1's then it means that it will occupy whole space !  If two '1's are there and they are from {0 - 1} range and {2 - 3} range, then it will signify that it will cover one fourth of the whole space, Otherwise it simply means it can move only along with the quadratic straight line  ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We approached it in two different ways. One is by just counting how many '1's are there and then according to it, we'll decide how many cells it can occupy ! 
+   
+   •  And second is, how many cells it will occupy along with x axis and also how many cells it will occupy along with the y axis !  And the we'll multiply them here (x * y) y -> will indicate that how many x axis line cells we have to count in total ! 
+
+
+
+Time Complexity :  O(1) 📝
+
+
+Implementation Uses :  Adhoc, Coordination </> 👨🏻‍💻  !
 
 
 */
+
 
 C++ Code : 👇
 
