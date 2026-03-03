@@ -1,5 +1,44 @@
 /*
 
+Tuesday , 3 March , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 209, Div 4)
+
+
+• Problem No. D (Binary Love) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/P5209?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️ 🧠
+
+   •  In this Problem, We're Given a string and asked whether it is possible to make equal the count of substring "01" and "10" by deleting some character from either begining of the string or end of the string within few operation ! 
+   
+   • If we can make equal then Alice will win otherwise Bob will win.
+
+   • One thing is noticable here, that is count of "10" and "01" of if count of transition is greater than 1 or if after sorting the string ascending or descending order both of the string original and modified become equal then Alice will win.  Because If count of transition is less than 2 then it will behave like this way : 
+
+     • 000000111 or 11110000 or 00000 or 11111 ! 
+
+
+
+Solution Approach : 🎯
+
+   •  We approached it in 4 different ways. One is just counting the substring of "01" and "10" and then check that whether both of the string count is greater or equal than 1 or not.
+   
+   • Second is by counting transition number. Here we just counting that in how many position it changed or converted from '1' to '0'  or  '0' to '1'. If transition count is greater than 1 then Alice will win otherwise Bob will win ! 
+
+
+   • Third is just sorting the original array once in ascending and then descending way. After the sort if original string become equal with one of this ascending or descending or then Bob will win otherwise Alice will win. You might be wondering why it works here !  It works because as here it changed its character at most 1 times then this string already in a sorted order that why our condition hit the Correct condition ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc </> 👨🏻‍💻  !
 
 
 */
