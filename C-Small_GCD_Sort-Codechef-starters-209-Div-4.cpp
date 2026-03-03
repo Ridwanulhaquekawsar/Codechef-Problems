@@ -1,5 +1,35 @@
 /*
 
+Wednesday , 4 March , 2026 !
+
+☑ 1st problem of the day done ! ╰┈➤ (Codechef Starters 209, Div 4)
+
+
+• Problem No. C (Small GCD Sort) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/P3209?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️ 🧠
+
+   •  In this problem, We're given an N and we're asked find gcd for each 1 to N with N like : GCD(i, N) where {i = 1, 2, 3.....N}. And it instructs us to keep the i of Greater GCD in the begining position of the array and whose GCD of i same then we have to keep smaller index i to the left position in the array.
+
+
+
+Solution Approach : 🎯
+
+   •  At first we'll calculate GCD for each i from 1 to N, and then we'll insert them into a vector.
+   
+   • And then we'll sort them according to the largest gcd of each i and then if any two of i has same gcd then we'll place the smaller i to the left position ! 
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses :  Adhoc, Sorting </> 👨🏻‍💻  !
 
 
 */
