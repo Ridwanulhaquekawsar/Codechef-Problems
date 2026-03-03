@@ -246,3 +246,27 @@ int main(){
 
 4th Way : 👇
 
+ll T;
+ll n;
+S s;
+S str1, str2;
+
+void solve(){
+    in n >> s;
+    
+    str1 = s;
+    str2 = s;
+    
+    sort(all(str1) );
+    sort(rall(str2) );
+    
+    (str1 == s || str2 == s) ? out("Bob") : out("Alice");
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
