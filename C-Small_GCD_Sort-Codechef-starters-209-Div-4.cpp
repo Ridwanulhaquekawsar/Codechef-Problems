@@ -223,5 +223,31 @@ int main(){
 }
 
 
+
 Third Way : 👇
 
+ll T;
+ll n;
+vll ans;
+
+void solve(){
+    in n;
+    ans.clr;
+    
+    f1(1, n) ans.pb({__gcd(i, n), i});
+    
+    sort(all(ans), [] (auto &a, auto &b){
+        return (a.fi == b.fi) ? a.se < b.se : a.fi > b.fi;
+    });
+    
+    f(n) cout << ans[i].se << " ";
+    Nl;
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
