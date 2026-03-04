@@ -190,3 +190,35 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+Another Way : 👇
+
+ll T;
+ll n;
+vll v;
+ll sum;
+
+void solve(){
+    in n;
+    rs(v, n);
+   
+    sum = 0;
+    
+    f(n){
+        in v[i];
+        sum += v[i];
+    }
+    
+    sort(all(v) );
+    
+    out(sum - 2 * Sum1(v, 0, n/2) );
+}
+
+int main(){
+    FastIO(); 
+    
+    T = 1;
+    in T;
+    while(T--) solve();
+}
