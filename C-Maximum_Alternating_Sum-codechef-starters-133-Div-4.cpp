@@ -1,5 +1,37 @@
 /*
 
+Wednesday , 4 March , 2026 !
+
+☑ 2nd problem of the day done ! ╰┈➤ (Codechef Starters 133, Div 4)
+
+
+• Problem No. C (Maximum Alternating Sum) ! 
+
+
+• Problem Link : ⤵︎
+https://www.codechef.com/problems/MXALT?tab=statement
+
+
+Observation & Intuition : 🕵🏻‍♂️ 🧠
+
+   •  In this problem, we're given an array and it says that every even index will be negative, that means all elements at even indices will be negative. It is also allowed to rearrange the array elements however we want. So, if we keep small elements at all even index then the total sum will give the maximum possible Alternating Sum ! 
+   
+
+
+
+Solution Approach : 🎯
+
+   • We can approach it in two different ways.
+   1st is just sorting the whole array and then calculating the whole array elements sum that means the sum of all elements of that array, And then we'll calculate the left half sum of that array. After that we'll subtract this left half sum from the total sum twice.
+   
+   • And the Second Approach is like again sorting the whole array and then we'll run a loop and keep adding through the loop of odd index array value to our answer variable and then we'll keep subtracting the even index array element from our answer variable.
+
+
+
+Time Complexity :  O(n) 📝
+
+
+Implementation Uses : Adhoc </> 👨🏻‍💻  !
 
 
 */
