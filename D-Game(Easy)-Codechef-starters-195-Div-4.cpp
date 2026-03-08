@@ -55,6 +55,28 @@ using ll = long long int;
 #define fd(...) find(__VA_ARGS__)
 #define cnt(...) count(__VA_ARGS__)
 
+/*
+template<typename Container, typename T>
+ll cnt1(const Container &c, const T &val) {
+    if constexpr (requires { c.count(val); }) {
+        // For set or multiset: efficient O(log n)
+        return c.count(val);
+    } else {
+        // For vector, deque, list: O(n)
+        return count(c.begin(), c.end(), val);
+    }
+}
+
+template<typename Container, typename T>
+auto fd1(Container &c, const T &val) {
+    if constexpr (requires { c.find(val); }) {
+        return c.find(val); // set, multiset, map → iterator
+    } else {
+        return std::find(c.begin(), c.end(), val); // vector, deque, list
+    }
+}
+*/
+
 using pii = pair<int, int>;
 using pdd = pair<double, double>;
 using pbb = pair<bool, bool>;
@@ -174,10 +196,12 @@ void solve(){
     f(n) in v[i];
     sort(all(v) );
     
+    // prefix Sum ! 
     f(n) (i == 0) ? prf[0] = v[i] : prf[i] = prf[i - 1] + v[i];
     
     mx = ninf;
     
+    // Compute answer for k = 1 to 2n ! 
     rep1(k, 1, 2 * n){
         
         rep(c2, n + 1){  // c2 can grow up to n in total ! 
