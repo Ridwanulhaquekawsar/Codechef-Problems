@@ -229,3 +229,42 @@ int main(){
     in T;
     while(T--) solve();
 }
+
+
+Slightly Modified Version : 👇
+
+void solve(){
+    in n;
+    rs(v, n);
+    rs(prf, n);
+    
+    f(n) in v[i];
+    sort(all(v) );
+    
+    // prefix Sum ! 
+    f(n) (i == 0) ? prf[0] = v[i] : prf[i] = prf[i - 1] + v[i];
+    
+    // mx = ninf;
+    
+    // Compute answer for k = 1 to 2n ! 
+    rep1(k, 1, 2 * n){
+        mx = ninf;
+        
+        rep(c2, n + 1){  // c2 can grow up to n in total ! 
+            c1 = k - 2 * c2;
+            
+            if(c1 + c2 <= n && c1 >= 0){
+                tmp = c2 * c1; // c2 times c1 adds on tmp variable ! 
+                tmp += (c2 * (c2 - 1) )/2; // extra in total (c2 - 1) times natural number added to tmp ! 
+                
+                tmp += prf[n - 1] - (c1 + c2 != n ? prf[n - (c1 + c2) - 1] : 0);  // from the end we're talking here total (c1 + c2) array elements to tmp ! 
+                mx = max(mx, tmp); // we're comparing for every c1 & c2 which is less or eual to the n ! 
+            }
+            else if(c1 < 0) break;
+        }
+        
+        cout << mx << " ";
+    }
+    
+    Nl;
+}
