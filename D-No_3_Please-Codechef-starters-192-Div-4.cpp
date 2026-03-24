@@ -195,7 +195,6 @@ void solve(){
     st.clr;
     
     l = -1;
-    p[0] = 0;
     
     f(n){
         in v[i];
