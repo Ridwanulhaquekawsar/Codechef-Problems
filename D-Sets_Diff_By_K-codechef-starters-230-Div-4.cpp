@@ -199,10 +199,12 @@ void solve(){
     
     if(v.empt) No;
     else{
-        ok = 1;  
+        ok = 1;
         ok &= (v.fr <= k + 1 && n - v.bc <= k);
     
-        f1(1, sz(v) - 1) ok &= (v[i] - v[i - 1] > k && v[i] - v[i - 1] <= 2 * k + 1);
+        f1(1, sz(v) - 1){
+            ok &= (v[i] - v[i - 1] > k && v[i] - v[i - 1] <= 2 * k + 1);
+        }    
         
         (ok) ? Yes : No;
     }
@@ -214,4 +216,4 @@ int main(){
     T = 1;
     in T;
     while(T--) solve();
-}    
+}
