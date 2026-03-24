@@ -203,7 +203,8 @@ void solve(){
         ok &= (v.fr <= k + 1 && n - v.bc <= k);
     
         f1(1, sz(v) - 1){
-            ok &= (v[i] - v[i - 1] > k && v[i] - v[i - 1] <= 2 * k + 1);
+            ok &= (v[i] - v[i - 1] > k) 
+            ok &= (v[i] - v[i - 1] <= 2 * k + 1);
         }    
         
         (ok) ? Yes : No;
